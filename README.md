@@ -1,6 +1,8 @@
 **Ethical Hacking Technical Report**
 Client: secureitglobal.com
+
 Date: [05-10-24]
+
 Prepared by: [Frederick Salazar] and [Joshua Secundo]
 
  **Executive Summary**:
@@ -11,26 +13,31 @@ Prepared by: [Frederick Salazar] and [Joshua Secundo]
  **Network Infrastructure**:
   
   **Critical**: Unauthorized access to device management interfaces and possible network breach are made possible by default credentials found on network devices (such as switches and routers).
+ 
   **High**: There is no network segmentation, which allows for lateral network mobility and amplifies the effect of possible breaches.
   
   **Web Applications**:
   
   **Critical**: A vulnerability in the web-based management site of the organization that allows attackers to execute arbitrary commands on the server, possibly using Command Injection.
+  
   **High**: The online payment gateway's inadequate input validation allows for SQL Injection attacks and illegal database access.
   
   **Operating Systems**:
   
   **Critical**: SSL certificates that have expired on important servers leave them vulnerable to data eavesdropping and man-in-the-middle attacks.
+ 
   **High**: User accounts with lax password restrictions, making passwords more easily guessed and raising the possibility of unwanted access.
   
   **Wireless Networks**:
   
   **Critical**: Guest users are vulnerable to data interception and eavesdropping on guest Wi-Fi networks due to inadequate authentication mechanisms (e.g., WEP, WPA) and a lack of encryption.
+  
   **High**: Unauthorized access points that were found to be operating inside the company network were used to support man-in-the-middle attacks by masquerading as authentic Wi-Fi networks.
   
   **Social Engineering**:
   
   **High**: Employees sharing sensitive information over insecure communication channels (e.g., email, messaging apps) due to lack of awareness about data protection practices.
+  
   **High**: Lack of employee training and awareness about social engineering tactics, resulting in successful phishing attacks and credential theft.
  
   Recommendations:
