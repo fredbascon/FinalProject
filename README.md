@@ -1,7 +1,7 @@
 **Ethical Hacking Technical Report**
 Client: secureitglobal.com
 Date: [05-10-24]
-Prepared by: [Frederick Salazar] and [Joshua Secundo]
+Prepared by:[Frederick Salazar]&[Joshua Secundo]
 
  **Executive Summary**:
  The technical results of the ethical hacking evaluation for secureitglobal.com are presented in this report. The evaluation's goal was to find weaknesses in the company's systems, apps, and network infrastructure. Critical and high-risk flaws were found using a variety of testing approaches, such as vulnerability scanning and penetration testing. Together with practical suggestions for correction, this study offers thorough explanations of these findings.
